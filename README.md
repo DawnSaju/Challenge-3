@@ -15,7 +15,7 @@ def Function_1(x1, y1, x2, y2):
     return math.sqrt((x1-x2)**2 + (y1-y2)**2)
 ```
 
-Defining the Pillar_Coordinates function with 6 paramters, creating 3 variable named a,b and c and assigning the First function with 4 parameters Finally creating a varibale named as x and assigning (a + b + c) divided by 2.
+Defining the Pillar_Coordinates function with 6 paramters, creating 3 variable named a,b and c and assigning the First function with 4 parameters Finally creating a varibale named as x and assigning (a + b + c) divided by 2 and returning it.
 
 ```python
 def Pillar_Coordinates(x1, y1, x2, y2, x3, y3):
