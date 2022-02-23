@@ -2,20 +2,20 @@
 
 ### CodeBeans 1.0 - Challenge 3
 
-Importing Required Package.
+- Importing Required Package.
 
 ```python
 import math
 ```
 
-Defining the function with 4 paramters.
+- Defining the function with 4 paramters.
 
 ```python
 def Function_1(x1, y1, x2, y2):
     return math.sqrt((x1-x2)**2 + (y1-y2)**2)
 ```
 
-Defining the Pillar_Coordinates function with 6 paramters, creating 3 variable named a,b and c and assigning the First function with 4 parameters Finally creating a varibale named as x and assigning (a + b + c) divided by 2 and returning it.
+- Defining the Pillar_Coordinates function with 6 paramters, creating 3 variable named a,b and c and assigning the First function with 4 parameters Finally creating a varibale named as x and assigning (a + b + c) divided by 2 and returning it.
 
 ```python
 def Pillar_Coordinates(x1, y1, x2, y2, x3, y3):
@@ -26,7 +26,7 @@ def Pillar_Coordinates(x1, y1, x2, y2, x3, y3):
     return math.sqrt(x * (x - a) * (x - b) * (x - c))
 ```
 
-Declaring the Variables.
+- Declaring the Variables.
 
 ```python
 x1, y1 = map(float, input().split())
@@ -34,7 +34,7 @@ x2, y2 = map(float, input().split())
 x3, y3 = map(float, input().split())
 ```
 
-Final Output.
+- Final Output.
 
 ```python
 print("\nOutput: ")
