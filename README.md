@@ -2,7 +2,7 @@
 
 ### CodeBeans 1.0 - Challenge 3
 
-``python
+```python
 import math
 ```
 Importing Required Package.
